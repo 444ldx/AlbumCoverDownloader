@@ -1,0 +1,80 @@
+<!--
+    
+   _____            __.__ __            
+  /     \  __ __   |__|__|  | _______   
+ /  \ /  \|  |  \  |  |  |  |/ /\__  \  
+/    Y    \  |  /  |  |  |    <  / __ \_
+\____|__  /____/\__|  |__|__|_ \(____  /
+        \/     \______|       \/     \/ 
+
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Mujika : Télécharger des pochettes d'albums gratuitement</title>
+    <meta name="description" content="Mujika vous permet de télécharger n'importe quelle pochette d'album en haute qualité de manière rapide et gratuite.">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="resources/icons/icon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="resources/images/logo.png" alt="" class="logo"></a>
+        <h1>Mujika Cover Download</h1>
+    </header>
+
+    <section>
+        <div class="search">
+            <input type="text" id="search-txt" placeholder="Rechercher un album ou un artiste..." class="search-txt">
+            <input type="button" id="search-btn" value="Rechercher" class="search-btn" onclick="search()">
+        </div>
+        <div class="results">
+            <div id="list" class="list">
+                <p>Les albums :</p>
+                <div id="elements">
+                    <input type="button" value="Hiver à Paris - Dinos"><br>
+                </div>
+                
+            </div>
+            <div class="album">
+                <h2>Album</h2>
+                <p id=title>Hiver à Paris</p>
+
+                <h2>Artise</h2>
+                <p id="artist">Dinos</p>
+
+                <div class="inline-container">
+                    <div class="inline-container-in">
+                        <h2>Titres</h2>
+                        <p id="tracks">21</p>
+                    </div>
+
+                    <div>   
+                        <h2>Lien</h2>
+                        <a id="link" href="">Cliquer ici</a>
+                    </div>
+                </div>
+
+                <img id="cover" alt="resources/images/Hiver à Paris_Dinos.jpeg" src="resources/images/exemple.jpeg">
+            </div>
+        </div>
+
+        <div class="download">
+            <input type="button" value="Télécharger" onclick="download();">
+        </div>
+
+        <footer>
+            <p>Développé avec &lt;3 par <a href="https://github.com/444ldx" target="_blank">Johan Ledoux</a></p>
+        </footer>
+        
+        <div id="dz-root"></div>
+        <script src="https://e-cdn-files.dzcdn.net/js/min/dz.js"></script>
+        <script src="index.js"></script>
+    </section>
+</body>
+</html>
