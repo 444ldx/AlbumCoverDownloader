@@ -1,12 +1,12 @@
 <img src="resources/images/logo.png" width="80" height="80"> 
 
-# Mujika
+# Album Cover Downloader
 
 ## Présentation
 
-Mujika est un site web qui permet de télécharger n'importe quelle pochette d'album en très haute qualité de manière simple et rapide ! Ce site web parfaitement adapté pour la navigation mobile est l'évolution du [logiciel Mujika](https://github.com/444ldx/MujikaCoverDownloader) pour Windows.
+*Album Cover Downloader* est un site web qui permet de télécharger n'importe quelle pochette d'album en très haute qualité de manière simple et rapide ! Ce site web parfaitement adapté pour la navigation mobile est l'évolution du [logiciel Mujika](https://github.com/444ldx/MujikaCoverDownloader) pour Windows.
 
-Voici un exemple de l'interface de Mujika :
+Voici un exemple de l'interface :
 
 <img src="resources/images/screen.png" height="500"> 
 
