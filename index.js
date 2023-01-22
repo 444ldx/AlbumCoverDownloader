@@ -49,7 +49,7 @@ function updateData(number) {
 }
 
 function download() {
-    var url = cover.alt
+    var url = cover.src
 
     fetch(url).then(res => res.blob()).then(file => {
         let tempUrl = URL.createObjectURL(file);

@@ -94,6 +94,7 @@ header h1 {
     padding: 8px;
     padding-left: 10px;
     font-size: 0.9em;
+    color: #000000;
 }
 
 .results .list input:hover {
@@ -155,7 +156,7 @@ header h1 {
     font-weight: 500;
     background-color: var(--color-green);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 20px;
     padding: 10px;
 }
